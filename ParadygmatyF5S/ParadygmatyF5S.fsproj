@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <Compile Include="uczenie.fs" />
+    <Compile Include="lab4\5.fs" />
     <Compile Include="lab4\4.fs" />
     <Compile Include="lab4\3.fs" />
     <Compile Include="lab4\2.fs" />
