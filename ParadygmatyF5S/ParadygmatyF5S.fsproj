@@ -2,10 +2,15 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="uczenie.fs" />
+    <Compile Include="lab4\4.fs" />
+    <Compile Include="lab4\3.fs" />
+    <Compile Include="lab4\2.fs" />
+    <Compile Include="lab4\1.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
