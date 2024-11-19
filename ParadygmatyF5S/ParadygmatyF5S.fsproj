@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="lab6\4.fs" />
+    <Compile Include="lab6\3.fs" />
+    <Compile Include="lab6\2.fs" />
+    <Compile Include="lab6\1.fs" />
     <Compile Include="uczenie.fs" />
     <Compile Include="lab4\5.fs" />
     <Compile Include="lab4\4.fs" />
@@ -13,6 +17,10 @@
     <Compile Include="lab4\2.fs" />
     <Compile Include="lab4\1.fs" />
     <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="lab5\" />
   </ItemGroup>
 
 </Project>
