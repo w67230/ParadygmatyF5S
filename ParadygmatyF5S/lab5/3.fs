@@ -4,22 +4,24 @@ open System.Collections.Generic;
 
 
 let rec permutuj(lista : List<int>, indeksZamiany : int) =
-    let liczba = lista.[0];
-    lista.[0] <- lista.[indeksZamiany];
-    lista.[indeksZamiany] <- liczba;
-    printfn("%A") lista;
-    if(indeksZamiany > 1) then
+    if(indeksZamiany = 1) then
+        printfn("%A") lista;
+    else   
         permutuj(lista, indeksZamiany - 1);
-
-    ();
-
-let wypiszPermutacje(lista : List<int>) = 
-    if(lista.Count > 0) then
-        let mutable i = 0;
-        while(i < lista.Count) do
-            permutuj(lista, lista.Count-1);
-            i <- i + 1;
         
+        let mutable i = 0;
+        while(i < indeksZamiany - 1) do
+            if(i%2 = 0) then
+                let liczba = lista.[i];
+                lista.[i] <- lista.[indeksZamiany - 1];
+                lista.[indeksZamiany - 1] <- liczba;
+            else
+                let liczba = lista.[0];
+                lista.[0] <- lista.[indeksZamiany - 1];
+                lista.[indeksZamiany - 1] <- liczba;
+            permutuj(lista, indeksZamiany - 1);
+            i <- i + 1;
+
     ();
     
     
@@ -28,11 +30,12 @@ let wypiszPermutacje(lista : List<int>) =
 let main() = 
 
     let lista = new List<int>();
+    lista.Add(1);
     lista.Add(3);
     lista.Add(5);
     lista.Add(7);
-    //lista.Add(9); dziala tylko dla list ponizej 4 elementow
-    wypiszPermutacje(lista);
+    lista.Add(9);
+    permutuj(lista, lista.Count);
 
     
 
