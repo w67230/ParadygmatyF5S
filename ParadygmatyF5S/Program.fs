@@ -24,4 +24,6 @@
 //lab6_1.main() |> ignore;
 //lab6_2.main() |> ignore;
 //lab6_3.main() |> ignore;
-lab6_4.main() |> ignore;
+//lab6_4.main() |> ignore;
+//lab6_5.main() |> ignore;
+//lab6_6.main() |> ignore;
