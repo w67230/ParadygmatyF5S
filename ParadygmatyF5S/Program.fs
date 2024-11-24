@@ -16,7 +16,9 @@
 
 //lab5_1.main() |> ignore;
 //lab5_2.main() |> ignore;
-lab5_3.main() |> ignore;
+//lab5_3.main() |> ignore;
+//lab5_4.main() |> ignore;
+//lab5_5.main() |> ignore;
 
 
 //--------------------------------------
