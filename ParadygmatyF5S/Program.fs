@@ -31,3 +31,11 @@
 //lab6_4.main() |> ignore;
 //lab6_5.main() |> ignore;
 //lab6_6.main() |> ignore;
+
+//--------------------------------------
+
+// lab7
+
+lab7_1.main() |> ignore;
+//lab7_2.main() |> ignore;
+
