@@ -36,6 +36,8 @@
 
 // lab7
 
-lab7_1.main() |> ignore;
+//lab7_1.main() |> ignore;
 //lab7_2.main() |> ignore;
 
+// lab8
+lab8_zadania.main() |> ignore;
